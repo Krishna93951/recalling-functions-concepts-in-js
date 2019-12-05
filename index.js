@@ -141,6 +141,6 @@ console.log(test(10));
 function abc(...theArgs){
   console.log(theArgs);
 }
-console.log(abc(1,2,3));
-console.log(abc('KK','R','KKR'));
-console.log(abc([1,2,3],[23,4,5,3]));
+abc(1,2,3);
+abc('KK','R','KKR');
+abc([1,2,3],[23,4,5,3]);
